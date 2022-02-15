@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      bug-ionic-textarea
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row>
+    <ion-col>
+      <ion-list>
+        <ion-list-header>
+          Wrong
+        </ion-list-header>
+        <ion-item>
+          <ion-textarea auto-grow [value]="tmpText">
+          </ion-textarea>
+        </ion-item>
+      </ion-list>
+    </ion-col>
+    <ion-col>
+      <ion-list>
+        <ion-list-header>
+          Fix
+        </ion-list-header>
+        <ion-item>
+          <ion-textarea class="fixed" auto-grow [value]="tmpText">
+          </ion-textarea>
+        </ion-item>
+      </ion-list>
+    </ion-col>
+  </ion-row>
+</ion-content>

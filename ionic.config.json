@@ -1,0 +1,7 @@
+{
+  "name": "bug-ionic-textarea",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
